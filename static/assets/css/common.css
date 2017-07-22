@@ -1,0 +1,83 @@
+html body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+a{ text-decoration:none} 
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#main {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.bg-purple-dark {
+  background: #99a9bf;
+  border:1px solid #888;
+}
+
+.bg-purple {
+  background: #d3dce6;
+}
+
+.bg-purple-light {
+  background: #e5e9f2;
+}
+
+.grid-content {
+  border-radius: 4px;
+  min-height: 50px;
+}
+
+.row-bg {
+  padding: 10px 0;
+  background-color: #f9fafc;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.dHead {
+  height: 50px;
+}
+
+.dBody {
+  height: 100%;
+  position: relative;
+}
+
+.dBody .el-col,
+.dBody .el-menu {
+  height: 100%;   
+}
+
+/*导航栏的a标签可调节宽高*/
+.el-menu-item a {
+  display: block;
+}
