@@ -1,5 +1,5 @@
-import firstcomponent from '../components/b.vue'
-import secondcomponent from '../components/b.vue'
+import firstcomponent from '../views/b.vue'
+import secondcomponent from '../views/b.vue'
 import axios from 'axios'
 // import {Toast} from 'mint-ui'
 

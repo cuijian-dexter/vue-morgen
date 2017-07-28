@@ -1,16 +1,18 @@
 # vue-morgen
 
-git clone ÏîÄ¿µØÖ·
+git clone é¡¹ç›®åœ°å€
 
-É¾³ınode_modules
-
-npm install°²×°°ü
+npm installå®‰è£…åŒ…
 
 npm install --save vue
 
+#å®‰è£…
+npm install crypto-js
+
 npm run dev
 
-´ò°üÊ¹ÓÃµÄwebpack ÃüÁîÎªnpm run build
 
-ÎÊÌâ£º
-¶Ë¿ÚÕ¼ÓÃµÄÎÊÌâ£¬¿ÉÒÔ¸ü¸Äconfig/index.jsÖĞµÄ8090ÎªÏëÒªµÄ¶Ë¿ÚºÅ
+æ‰“åŒ…ä½¿ç”¨çš„webpack å‘½ä»¤ä¸ºnpm run build
+
+é—®é¢˜ï¼š
+ç«¯å£å ç”¨çš„é—®é¢˜ï¼Œå¯ä»¥æ›´æ”¹config/index.jsä¸­çš„8090ä¸ºæƒ³è¦çš„ç«¯å£å·

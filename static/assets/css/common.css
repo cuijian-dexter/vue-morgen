@@ -9,6 +9,9 @@ html body {
 }
 
 a{ text-decoration:none} 
+ul{
+  list-style:none; 
+}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -41,6 +44,10 @@ a{ text-decoration:none}
 
 .bg-purple-light {
   background: #e5e9f2;
+}
+
+.bg-grayish {
+  background: #eee;
 }
 
 .grid-content {
@@ -80,4 +87,56 @@ a{ text-decoration:none}
 /*导航栏的a标签可调节宽高*/
 .el-menu-item a {
   display: block;
+}
+
+#dMap {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.clearAll {
+  z-index: 1;   
+  position: absolute;
+  right: 20px;
+  bottom: 20px; 
+}
+.exit{
+  z-index: 1;   
+  position: absolute;
+  right: 160px;
+  bottom: 20px; 
+}
+
+.userInfo {
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  width: 50%;
+}
+
+.span-border {
+  border: 1px solid #AAA;
+}
+
+.userHeight{
+  line-height: 50px;
+}
+
+.loginModel {
+  margin:0 auto;
+  width:400px;
+}
+
+.loginModel ul{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0 40px;
+}
+
+.loginModel ul li{
+  height: 50%;
+  text-align: left;
+  line-height: 60px;
 }
